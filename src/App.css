@@ -1,38 +1,73 @@
-.App {
+@font-face {
+  font-family: 'jose';
+  src: url(./assets/fonts/JosefinSans-VariableFont_wght.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #292a2d;
+  color: #a9a9b3;
+  font-size: 16px;
+  font-family: 'jose';
+}
+
+h1 {
   text-align: center;
+  margin: 2rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+form {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
 }
 
-.App-link {
-  color: #61dafb;
+input {
+  height: 2rem;
+  font-family: inherit;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.add {
+  font-size: 1.2rem;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: inherit;
+}
+
+input {
+  font-size: 1.5rem;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.delete {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: inherit;
+  outline: none;
+  font-size: 1.5rem;
+}
+
+.listEl {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+.divUl {
+  display: flex;
+  justify-content: center;
+}
+
+.listEl > li {
+  font-size: 1.5rem;
+  list-style-type: none;
 }
