@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ToDoList/static/css/main.34e7abb5.css",
+    "main.js": "/ToDoList/static/js/main.fac87a7a.js",
+    "static/js/787.97a945da.chunk.js": "/ToDoList/static/js/787.97a945da.chunk.js",
+    "static/media/JosefinSans-VariableFont_wght.ttf": "/ToDoList/static/media/JosefinSans-VariableFont_wght.762df0b3ada8d7e38f03.ttf",
+    "index.html": "/ToDoList/index.html",
+    "main.34e7abb5.css.map": "/ToDoList/static/css/main.34e7abb5.css.map",
+    "main.fac87a7a.js.map": "/ToDoList/static/js/main.fac87a7a.js.map",
+    "787.97a945da.chunk.js.map": "/ToDoList/static/js/787.97a945da.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34e7abb5.css",
+    "static/js/main.fac87a7a.js"
+  ]
+}
